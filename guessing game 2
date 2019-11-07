@@ -1,0 +1,37 @@
+print("This is the guessing game, have fun!")
+
+print("This is how you play: I chose four different numbers in a specific order")
+print("You wil  guess a variety of four digit numbers unitl your guess is correct")
+print("I will tell you if your guess contains the right number(s)")
+print("Let's play!!!!")
+
+import random
+randonumber = random.randit (1000,999)
+print(randonumber)
+list1 = [int(x) for x in str(randoNumber)]
+print(list1) #get rid of later?
+
+guesses = 10
+
+while guesses != 0:
+    userInput = ("your guess: ")
+    if len(userInput) < 4:
+        print ("don't forget, your guess can only be four numbers long")
+        guesses = guesses - 1
+    elif len(userInput1) > 4:
+        print ("your guess must be four numbers long")
+        guesses = guesses -1
+    else:
+        print("your guess is a four didgit number, great!")
+        guesses = 0
+        list2 = [int (x) for x in str(userInput1)]
+        print(list2) #don't print later
+        if int(userInput1) == randoNumber:
+            print("nice job, you got the number correctly!")
+        else:
+            for eachlet in list1:
+                for everylet in list2:
+                    if eachlet == everylet
+                        print(list2.index(eachlet)+1)
+                        print("the number above is a number you guessed is ")
+
